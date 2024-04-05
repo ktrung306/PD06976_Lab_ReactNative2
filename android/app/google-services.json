@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066150379065",
+    "project_id": "danentang2-714a9",
+    "storage_bucket": "danentang2-714a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066150379065:android:c947e0925fc75bc99b97e8",
+        "android_client_info": {
+          "package_name": "com.lab_reactnative2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066150379065-5o6391fvkl1koolpkilb8jdpp9ca4i81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe3yMa4_J7mw997hwJt6KKGXuKN37GazI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066150379065-5o6391fvkl1koolpkilb8jdpp9ca4i81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
