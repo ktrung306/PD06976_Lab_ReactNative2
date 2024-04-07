@@ -1,0 +1,12 @@
+{
+  "user": [
+    {
+      "id": "0363",
+      "name": "Trung",
+      "age": 22,
+      "email": "khactrungcc18@gmail.com",
+      "password": "12345",
+      "gender": "nam"
+    }
+  ]
+}
