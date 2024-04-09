@@ -14,15 +14,18 @@ import Lab4_Bai2 from "./src/screens/Lab4_Bai2";
 import { Provider } from "react-redux";
 import { StyleSheet, View } from "react-native";
 import GD from "./src/screens/Lab5/viewApp";
-//import store from "./src/screens/Lab5/store";
-//import { store } from "./src/screens/Lab6_Bai1/store";
-//import { store } from "./src/screens/Lab6_Bai2/store";
+// import store from "./src/screens/Lab5/store";
+import { store } from "./src/screens/store/store";
+// import { store } from "./src/screens/Lab6_Bai1/store";
+// import { store } from "./src/screens/Lab6_Bai2/store";
+//import { store } from "./src/screens/Lab6_Bai3/store";
 import CounterScreen from "./src/screens/Lab6_Bai1/HomeScreen";
 import PokemonScreen from "./src/screens/Lab6_Bai2/PokemonScreen";
+import FormInput from "./src/screens/Lab6_Bai3/from";
 import Lab7_Bai2 from "./src/screens/Lab7_Bai2/lab7";
 import Lab7_Bai1 from "./src/screens/Lab7/Login";
-import { store } from "./src/screens/Lab6_Bai3/store";
-import FormInput from "./src/screens/Lab6_Bai3/from";
+
+
 
 function App() {
   return(
@@ -32,17 +35,16 @@ function App() {
       //  </Provider>
       /*Lab 6_1*/
       // <Provider store={store}>
-      //   <PokemonScreen />
+      //   <CounterScreen />
       // </Provider>
       /*Lab 6_2*/
-      //<Provider store={store}>
+      // <Provider store={store}>
       //  <PokemonScreen />
-      //</Provider>
+      // </Provider>
       /*Lab 6_3*/
-      //<Provider store={store}>
-       // <FormInput/>
+      // <Provider store={store}>
+      //  <FormInput/>
       // </Provider>
       <Lab7_Bai1 />
-    
   )};
 export default App;  

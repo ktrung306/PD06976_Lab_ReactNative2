@@ -64,7 +64,7 @@ const Lab7_Bai1 = () => {
   };
   return (
     <ImageBackground
-      source={require('../../assets/img7/bg-3.png')}
+      source={require('../../assets/img7/nen.jpg')}
       resizeMode="cover"
       style={styles.container}
     >

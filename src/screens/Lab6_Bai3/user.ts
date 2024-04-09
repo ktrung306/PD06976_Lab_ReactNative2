@@ -11,7 +11,7 @@ interface UserData {
 
 export const userApi = createApi({
   reducerPath: 'userApi',
-  baseQuery: fetchBaseQuery({baseUrl: 'http://192.168.1.6:3000/'}),
+  baseQuery: fetchBaseQuery({baseUrl: 'http://172.16.55.122:3000/'}),
   endpoints: builder => ({
     signup: builder.mutation<UserData, Partial<UserData>>({
       query: userData => ({
